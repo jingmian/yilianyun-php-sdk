@@ -3,7 +3,7 @@
 
 namespace Yly\Config;
 
-use Exception;
+use InvalidArgumentException;
 class YlyConfig{
 
     private $clientId = '';
@@ -15,11 +15,11 @@ class YlyConfig{
     {
 
         if ($clientId == null || $clientId == "") {
-            throw new Exception("clientId is required");
+            throw new InvalidArgumentException("clientId is required");
         }
 
         if ($clientSecret == null || $clientSecret == "") {
-            throw new Exception("clientSecret is required");
+            throw new InvalidArgumentException("clientSecret is required");
         }
 
         $this->clientId = $clientId;
