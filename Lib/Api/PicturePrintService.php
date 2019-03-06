@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Api;
+namespace Yly\Api;
 
 class PicturePrintService extends RpcService{
 

@@ -1,7 +1,7 @@
 <?php
 
 include dirname(__DIR__) . '/Lib/Autoloader.php';
-use App\Config\YlyConfig;
+use Yly\Config\YlyConfig;
 
 $grantType = 'client_credentials';      //'client_credentials' 自有型应用; 'authorization_code' 开放型应用
 define('GRANTTYPE', $grantType);

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Oauth;
+namespace Yly\Oauth;
 
-use App\Config\YlyConfig;
+use Yly\Config\YlyConfig;
 use Exception;
 class YlyOauthClient{
 

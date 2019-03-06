@@ -1,6 +1,6 @@
 <?php
-use App\Oauth\YlyOauthClient;
-use App\Api\PrintService;
+use Yly\Oauth\YlyOauthClient;
+use Yly\Api\PrintService;
 
 
 $client = new YlyOauthClient($config);

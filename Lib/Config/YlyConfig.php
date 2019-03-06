@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Config;
+namespace Yly\Config;
 
 use InvalidArgumentException;
 class YlyConfig{

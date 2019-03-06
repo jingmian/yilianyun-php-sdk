@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Api;
+namespace Yly\Api;
 
-use App\Config\YlyConfig;
-use App\Protocol\YlyRpcClient;
+use Yly\Config\YlyConfig;
+use Yly\Protocol\YlyRpcClient;
 
 class RpcService{
 
